@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.py\shell\CompilerPython]
+@="Compiler avec PyInstaller"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.py\shell\CompilerPython\command]
+@="cmd /c python \"C:\\compilation_auto\\compilation_python.py\" \"%1\""
